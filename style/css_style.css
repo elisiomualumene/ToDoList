@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color1:#f04410;  /* Orange color*/
+    --color2: #fac752; /* ChillYellow color*/
+    --color3: #ffffff; /* White color */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(270deg, var(--color1), var(--color2));
+    text-align: center;
+}
+
+h1{
+    margin: 2rem;
+    color: white;
+    font-size: 5rem;
+}
+
+input{
+    outline: none;
+    border: none;
+    background: none;
+    appearance: none;
+    text-align: center;
+}
+
+.input2{
+    background: var(--color3);
+    height: 40px;
+    width: 25rem;
+    border-radius: 2rem;
+} ::placeholder{text-align: center;}
+
+button{
+    outline: none;
+    border: none;
+    background: none;
+    appearance: none;
+}
+
+.addtodo{
+    color: #00000098;
+    background: white;
+    font-weight: bold;
+    padding: 0.8rem;
+    border-radius: 10rem;
+}
+
+.addtodo:hover{
+    background: linear-gradient(270deg ,var(--color1), var(--color2));
+    color: black;
+    
+}
