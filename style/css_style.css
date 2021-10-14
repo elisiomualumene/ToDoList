@@ -5,6 +5,8 @@
 }
 
 :root{
+    /* Variables  in css*/
+
     --color1:#f04410;  /* Orange color*/
     --color2: #fac752; /* ChillYellow color*/
     --color3: #ffffff; /* White color */
@@ -21,7 +23,7 @@ h1{
     margin: 2rem;
     color: white;
     font-size: 5rem;
-}
+}h1 abbr{text-decoration: none;}
 
 input{
     outline: none;
@@ -57,6 +59,7 @@ button{
 .addtodo:hover{
     background:var(--color4);
     color: black;
+    transition: 0.5s;
 }
 
 .nothing li{
@@ -71,4 +74,14 @@ button{
 }
 .nothing{
     line-height: 35px;
+}
+
+.rules{
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    margin: auto;
+}p:hover{
+    color: var(--color4);
+    transition: 0.5s;
 }

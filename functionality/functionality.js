@@ -13,15 +13,21 @@ addtodo.addEventListener('click', function(){
     paragraph.innerText = inputfield.value
         //And Here I add Paragraph to Container 'here_'
     here_.appendChild(paragraph)
-
+    //here a put a paragraph to list " here_ "
     inputfield.value = "";
+    //Clean de Input
     paragraph.addEventListener('click',function(){
         paragraph.style.textDecoration = "line-through";
-    })
+        //this line bottom of me remove the line-through when I click
+        paragraph.addEventListener('click', function(){
+            paragraph.style.textDecoration = "";
+        })
+    }) //this function check the list 'wwith a line'
 
     paragraph.addEventListener('dblclick',function(){
         here_.removeChild(paragraph);
-    })
+    }) // this function remove a paragraph in a list
+
         //Finish Here
 
 })
