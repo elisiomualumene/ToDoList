@@ -8,6 +8,7 @@
     --color1:#f04410;  /* Orange color*/
     --color2: #fac752; /* ChillYellow color*/
     --color3: #ffffff; /* White color */
+    --color4: #6495ed; /* Cornflowerblue color*/
 }
 
 body{
@@ -35,6 +36,7 @@ input{
     height: 40px;
     width: 25rem;
     border-radius: 2rem;
+    margin-bottom: 4rem;
 } ::placeholder{text-align: center;}
 
 button{
@@ -53,7 +55,20 @@ button{
 }
 
 .addtodo:hover{
-    background: linear-gradient(270deg ,var(--color1), var(--color2));
+    background:var(--color4);
     color: black;
-    
+}
+
+.nothing li{
+    position:relative;
+    list-style: none;
+    font-size: large;
+    margin: 2rem auto 1rem auto;
+    background:white;
+    height: 35px;
+    width: 400px;
+    border-radius: 5rem;
+}
+.nothing{
+    line-height: 30px;
 }
